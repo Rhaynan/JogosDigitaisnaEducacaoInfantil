@@ -1,55 +1,217 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
-body {
-    font-family: 'Open sans';
-    margin: 0;
-    background: #1B98E0;
-}
+        * {
+            font-family: 'Open sans';
+        }
 
-.container {
-    margin-top: 5%;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
+        body {
+            background: silver;
+            margin: 0;
+        }
 
-.image1 {
-    height: 300px;
-}
+        .tabela1 {
+            background: blue;
+        }
 
-.navMenu {
-    width: 100%;
-    height: 7vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 10px;
-}
+        .tabela2 {
+            background: steelblue;
+        }
 
-.contato {
-    text-decoration: none;
-    margin-right: 10px;
-    color: #E8F1F2;
-}
+        .text {
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+        }
 
-.inicio {
-    color: #E8F1F2;
-    text-decoration: none;
-    margin-right: 10px;
-}
+        .text2 {
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+        }
 
-.corpoBlog {
-    display: flex;
-    color: #E8F1F2;
-    margin-left: 15px;
-    flex-direction: column;
-    align-items: center;
-}
+        .tabela-lista {
+            padding-bottom: 20px;
+            display: flex;
 
-.corpoBlog > p {    
-    color: #E8F1F2;
-    font-weight: 200;
-    font-size: 11pt;
-    margin: 10px;
-}
+        }
+
+        .tabela {
+            display: flex;
+            justify-content: flex-start;
+            width: 50%;
+            /* background: red; */
+            border: 0.5px solid black;
+        }
+
+        .protocolos {
+            /* background: blue; */
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            border: 0.5px solid black;
+
+        }
+
+        .testeflex {
+            padding-top: 20px;
+            padding-bottom: 30px;
+            height: auto;
+            display: flex;
+            color: #FFF;
+        }
+
+        .conteudo1 {
+            background: blue;
+            width: 33.33%;
+            text-align: center;
+        }
+
+        .conteudo1 > header {
+            padding-top: 10px;
+        }
+
+        .conteudo1 > p {
+            padding: 60px;
+        }
+
+        .conteudo2 {
+            background: rgb(92, 119, 238);
+            width: 33.33%;
+            text-align: center;
+        }
+
+        .conteudo2 > header {
+            padding-top: 35px;
+        }
+
+        .conteudo2 > p {
+            padding: 60px;
+        }
+
+        .conteudo3 {
+            background: rgb(19, 62, 141);
+            width: 33.33%;
+            text-align: center;
+        }
+
+        .conteudo3 > header {
+            padding-top: 35px;
+        }
+
+        .conteudo3 > p {
+            padding: 60px;
+        }
+
+        .topo {
+            justify-content: center;
+            display: flex;
+            width: 100%;
+            background: blue;
+            text-align: center;
+            color: #FFF;
+        }
+
+        .tag {
+            display: flex;
+            font-size: 35pt;
+        }
+
+        .divNav {
+            
+            padding-top: 10px;
+        }
+
+        .menu {
+            padding-left: 12px;
+            padding-right: 12px;
+            justify-content: space-between;
+            display: flex;
+            border: 1px solid black;
+            background: blue;
+        }
+
+        .inicio {
+            cursor: pointer;
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .html{
+            cursor: pointer;
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .tabelas {
+            cursor: pointer;
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .sobre {
+            cursor: pointer;
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .rodape {
+            cursor: pointer;
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .contato {
+            cursor: pointer;
+            text-decoration: none;
+            color: #FFF;
+        }
+        
+        .conteudoRodape {
+            height: auto;
+            display: flex;
+            
+        }
+
+        .cont1 {
+            background: #092b5a;
+            width: 25%;
+            color: #FFF;
+        }
+
+        .cont2 {
+            background: rgb(101, 159, 218);
+            width: 25%;
+            color: #FFF;
+        }
+
+        .cont3 {
+            background: #04394e;
+            width: 25%;
+            color: #FFF;
+        }
+
+        .cont4 {
+            background: #09738a;
+            width: 25%;
+            color: #FFF;
+        }
+
+        .sobreHtml {
+            border: 1px solid blue;
+            padding: 5px;
+
+        }
+
+        .infoCont {
+            text-align: center;
+
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        .direitos {
+            display: flex;
+            justify-content: center;
+        }
