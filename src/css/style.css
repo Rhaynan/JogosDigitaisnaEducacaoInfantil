@@ -5,7 +5,7 @@
         }
 
         body {
-            background: silver;
+            background: #F9F4F5;
             margin: 0;
         }
 
@@ -117,52 +117,119 @@
         }
 
         .divNav {
-            
+
             padding-top: 10px;
         }
 
         .menu {
             padding-left: 12px;
             padding-right: 12px;
-            justify-content: space-between;
+            justify-content: flex-end;
             display: flex;
-            border: 1px solid black;
-            background: blue;
+            /* border: 1px solid black; */
+            /* background: #70587C; */
         }
 
         .inicio {
             cursor: pointer;
             text-decoration: none;
+            color: black;
+            transition: .3s;
+            padding: 0 30px 0 30px;
+            /* background: #70587C; */
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .inicio:hover {
+            background: #502F4C;
+            transition: .3s;
             color: #FFF;
         }
+
 
         .html{
             cursor: pointer;
             text-decoration: none;
+            color: black;
+            padding: 0 30px 0 30px;
+            transition: .3s;
+            /* background: #70587C; */
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .html:hover {
+            background: #502F4C;
+            transition: .3s;
             color: #FFF;
         }
 
         .tabelas {
             cursor: pointer;
             text-decoration: none;
+            color: black;
+            padding: 0 30px 0 30px;
+            transition: .3s;
+            /* background: #70587C; */
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .tabelas:hover {
+            background: #502F4C;
+            transition: .3s;
             color: #FFF;
         }
 
         .sobre {
             cursor: pointer;
             text-decoration: none;
+            color: black;
+            padding: 0 30px 0 30px;
+            transition: .3s;
+            /* background: #70587C; */
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .sobre:hover {
+            background: #502F4C;
+            transition: .3s;
             color: #FFF;
         }
 
         .rodape {
             cursor: pointer;
             text-decoration: none;
+            color: black;
+            padding: 0 30px 0 30px;
+            transition: .3s;
+            /* background: #70587C; */
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .rodape:hover {
+            background: #502F4C;
+            transition: .3s;
             color: #FFF;
         }
 
         .contato {
             cursor: pointer;
             text-decoration: none;
+            color: black;
+            padding: 0 30px 0 30px;
+            transition: .3s;
+            /* background: #70587C; */
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .contato:hover {
+            background: #502F4C;
+            transition: .3s;
             color: #FFF;
         }
         
@@ -197,7 +264,7 @@
         }
 
         .sobreHtml {
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
             padding: 5px;
 
         }
