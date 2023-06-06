@@ -1,284 +1,351 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
-        * {
-            font-family: 'Open sans';
-        }
+* {
+    font-family: 'Open sans';
+    color: #FFF;
+}
 
-        body {
-            background: #F9F4F5;
-            margin: 0;
-        }
+body {
+    background: black;
+    margin: 0;
+}
 
-        .tabela1 {
-            background: blue;
-        }
+.tabela1 {
+    background: blue;
+}
 
-        .tabela2 {
-            background: steelblue;
-        }
+.tabela2 {
+    background: steelblue;
+}
 
-        .text {
-            color: #fff;
-            font-weight: 600;
-            font-size: 15px;
-        }
+.text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
 
-        .text2 {
-            color: #fff;
-            font-weight: 600;
-            font-size: 15px;
-        }
+.text2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
 
-        .tabela-lista {
-            padding-bottom: 20px;
-            display: flex;
+.tabela-lista {
+    padding-bottom: 20px;
+    display: flex;
 
-        }
+}
 
-        .tabela {
-            display: flex;
-            justify-content: flex-start;
-            width: 50%;
-            /* background: red; */
-            border: 0.5px solid black;
-        }
+.tabela {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    /* background: red; */
+    border: 0.5px solid black;
+}
 
-        .protocolos {
-            /* background: blue; */
-            display: flex;
-            justify-content: center;
-            width: 50%;
-            border: 0.5px solid black;
+.protocolos {
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 0.5px solid black;
 
-        }
+}
 
-        .testeflex {
-            padding-top: 20px;
-            padding-bottom: 30px;
-            height: auto;
-            display: flex;
-            color: #FFF;
-        }
+.testeflex {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: auto;
+    display: flex;
+    color: #FFF;
+}
 
-        .conteudo1 {
-            background: blue;
-            width: 33.33%;
-            text-align: center;
-        }
+.conteudo1 {
+    background: blue;
+    width: 33.33%;
+    text-align: center;
+}
 
-        .conteudo1 > header {
-            padding-top: 10px;
-        }
+.conteudo1 > header {
+    padding-top: 10px;
+}
 
-        .conteudo1 > p {
-            padding: 60px;
-        }
+.conteudo1 > p {
+    padding: 60px;
+}
 
-        .conteudo2 {
-            background: rgb(86, 112, 231);
-            width: 33.33%;
-            text-align: center;
-        }
+.conteudo2 {
+    background: rgb(86, 112, 231);
+    width: 33.33%;
+    text-align: center;
+}
 
-        .conteudo2 > header {
-            padding-top: 35px;
-        }
+.conteudo2 > header {
+    padding-top: 35px;
+}
 
-        .conteudo2 > p {
-            padding: 60px;
-        }
+.conteudo2 > p {
+    padding: 60px;
+}
 
-        .conteudo3 {
-            background: rgb(19, 62, 141);
-            width: 33.33%;
-            text-align: center;
-        }
+.conteudo3 {
+    background: rgb(19, 62, 141);
+    width: 33.33%;
+    text-align: center;
+}
 
-        .conteudo3 > header {
-            padding-top: 35px;
-        }
+.conteudo3 > header {
+    padding-top: 35px;
+}
 
-        .conteudo3 > p {
-            padding: 60px;
-        }
+.conteudo3 > p {
+    padding: 60px;
+}
 
-        .topo {
-            justify-content: center;
-            display: flex;
-            width: 100%;
-            background: blue;
-            text-align: center;
-            color: #FFF;
-        }
+.topo {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background: blue;
+    text-align: center;
+    color: #FFF;
+}
 
-        .tag {
-            display: flex;
-            font-size: 35pt;
-        }
+.tag {
+    display: flex;
+    font-size: 35pt;
+}
 
-        .divNav {
+.divNav {
 
-            padding-top: 10px;
-        }
+    padding-top: 10px;
+}
 
-        .menu {
-            padding-left: 12px;
-            padding-right: 12px;
-            justify-content: flex-end;
-            display: flex;
-            /* border: 1px solid black; */
-            /* background: #70587C */
-        }
+.menu {
+    padding-left: 12px;
+    padding-right: 12px;
+    justify-content: flex-end;
+    display: flex;
+    /* border: 1px solid black; */
+    /* background: #70587C */
+}
 
-        .inicio {
-            cursor: pointer;
-            text-decoration: none;
-            color: black;
-            transition: .3s;
-            padding: 0 30px 0 30px;
-            /* background: #70587C; */
-            border-radius: 20px;
-            margin: 5px;
-        }
+.inicio {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+    padding: 0 30px 0 30px;
+    /* background: #70587C; */
+    border-radius: 20px;
+    margin: 5px;
+}
 
-        .inicio:hover {
-            background: #502F4C;
-            transition: .3s;
-            color: #FFF;
-        }
+.inicio:hover {
+    background: #502F4C;
+    transition: .3s;
+    color: #FFF;
+}
 
 
-        .joguitodigital{
-            cursor: pointer;
-            text-decoration: none;
-            color: black;
-            padding: 0 30px 0 30px;
-            transition: .3s;
-            /* background: #70587C; */
-            border-radius: 20px;
-            margin: 5px;
-        }
+.joguitodigital{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px 0 30px;
+    transition: .3s;
+    /* background: #70587C; */
+    border-radius: 20px;
+    margin: 5px;
+}
 
-        .joguitodigital:hover {
-            background: #502F4C;
-            transition: .3s;
-            color: #FFF;
-        }
+.joguitodigital:hover {
+    background: #502F4C;
+    transition: .3s;
+    color: #FFF;
+}
 
-        .tabelas {
-            cursor: pointer;
-            text-decoration: none;
-            color: black;
-            padding: 0 30px 0 30px;
-            transition: .3s;
-            /* background: #70587C; */
-            border-radius: 20px;
-            margin: 5px;
-        }
+.tabelas {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px 0 30px;
+    transition: .3s;
+    /* background: #70587C; */
+    border-radius: 20px;
+    margin: 5px;
+}
 
-        .tabelas:hover {
-            background: #502F4C;
-            transition: .3s;
-            color: #FFF;
-        }
+.tabelas:hover {
+    background: #502F4C;
+    transition: .3s;
+    color: #FFF;
+}
 
-        .sobre {
-            cursor: pointer;
-            text-decoration: none;
-            color: black;
-            padding: 0 30px 0 30px;
-            transition: .3s;
-            /* background: #70587C; */
-            border-radius: 20px;
-            margin: 5px;
-        }
+.sobre {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px 0 30px;
+    transition: .3s;
+    /* background: #70587C; */
+    border-radius: 20px;
+    margin: 5px;
+}
 
-        .sobre:hover {
-            background: #502F4C;
-            transition: .3s;
-            color: #FFF;
-        }
+.sobre:hover {
+    background: #502F4C;
+    transition: .3s;
+    color: #FFF;
+}
 
-        .rodape {
-            cursor: pointer;
-            text-decoration: none;
-            color: black;
-            padding: 0 30px 0 30px;
-            transition: .3s;
-            /* background: #70587C; */
-            border-radius: 20px;
-            margin: 5px;
-        }
+.rodape {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px 0 30px;
+    transition: .3s;
+    /* background: #70587C; */
+    border-radius: 20px;
+    margin: 5px;
+}
 
-        .rodape:hover {
-            background: #502F4C;
-            transition: .3s;
-            color: #FFF;
-        }
+.rodape:hover {
+    background: #502F4C;
+    transition: .3s;
+    color: #FFF;
+}
 
-        .contato {
-            cursor: pointer;
-            text-decoration: none;
-            color: black;
-            padding: 0 30px 0 30px;
-            transition: .3s;
-            /* background: #70587C; */
-            border-radius: 20px;
-            margin: 5px;
-        }
+.contato {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px 0 30px;
+    transition: .3s;
+    /* background: #70587C; */
+    border-radius: 20px;
+    margin: 5px;
+}
 
-        .contato:hover {
-            background: #502F4C;
-            transition: .3s;
-            color: #FFF;
-        }
-        
-        .conteudoRodape {
-            height: auto;
-            display: flex;
-            
-        }
+.contato:hover {
+    background: #502F4C;
+    transition: .3s;
+    color: #FFF;
+}
 
-        .cont1 {
-            background: #092b5a;
-            width: 25%;
-            color: #FFF;
-        }
+.cardJogos {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
 
-        .cont2 {
-            background: rgb(101, 159, 218);
-            width: 25%;
-            color: #FFF;
-        }
+.conteudoRodape {
+    margin-top: 70px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
 
-        .cont3 {
-            background: #04394e;
-            width: 25%;
-            color: #FFF;
-        }
+.card1, .card2, .card3 {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 16%;
+    transition: .3s;
+}
 
-        .cont4 {
-            background: #09738a;
-            width: 25%;
-            color: #FFF;
-        }
+.card1 {
+    background: #092b5a;
+    margin-left: 10%;
+    color: #FFF;
+}
 
-        .sobreJogosDigitais {
-            /* border: 1px solid blue; */
-            padding: 5px;
+.card2 {
+    background: rgb(101, 159, 218);
+    color: #FFF;
+}
 
-        }
+.card3 {
+    margin-right: 10%;
+    color: #FFF;
+    height: 220px;
+}
 
-        .infoCont {
-            text-align: center;
+.card3:hover {
+    transform: scale(1.5);
+    transition: .3s;
+}
 
-        }
+.img3:hover {
+    transition: .3s;
+    background-image: url('/src/image/minecraft-gameplay.gif');
+    height: 370px;
+    width: 400px;
+    position: absolute;
+    bottom: -90px;
+    left: -80px;
+    background-size: 90% 78%;
+}
 
-        .cursor {
-            cursor: pointer;
-        }
+.img3 {
+    background-image: url('/src/image/minecraftIMG.webp');
+    height: 370px;
+    width: 400px;
+    position: absolute;
+    bottom: -90px;
+    left: -80px;
+    background-size: cover;
+    transition: .3s;
 
-        .direitos {
-            display: flex;
-            justify-content: center;
-        }
+}
+
+.titulo {
+    text-align: center;
+}
+
+.cont1 {
+    background: #092b5a;
+    width: 25%;
+    color: #FFF;
+}
+
+.cont2 {
+    background: #092b5a;
+    width: 25%;
+    color: #FFF;
+}
+
+.cont3 {
+    background: #092b5a;
+    width: 25%;
+    color: #FFF;
+}
+
+.cont4 {
+    background: #09738a;
+    width: 25%;
+    color: #FFF;
+}
+
+.sobreJogosDigitais {
+    /* border: 1px solid blue; */
+    padding: 5px;
+
+}
+
+.infoCont {
+    text-align: center;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+}
+
