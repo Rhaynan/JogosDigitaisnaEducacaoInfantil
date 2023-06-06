@@ -148,7 +148,7 @@
         }
 
 
-        .html{
+        .joguitodigital{
             cursor: pointer;
             text-decoration: none;
             color: black;
@@ -159,7 +159,7 @@
             margin: 5px;
         }
 
-        .html:hover {
+        .joguitodigital:hover {
             background: #502F4C;
             transition: .3s;
             color: #FFF;
@@ -263,7 +263,7 @@
             color: #FFF;
         }
 
-        .sobreHtml {
+        .sobreJogosDigitais {
             /* border: 1px solid blue; */
             padding: 5px;
 
