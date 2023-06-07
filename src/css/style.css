@@ -469,7 +469,8 @@ body {
 .planoDeFundo-card {
     /* border: 10px solid red; */
     background-color: black;
-    /* background-image: url('/src/image/background.jpeg'); */
+    background-image: url('/src/image/backgroundcard.jpg');
     margin-top: -30px;
-    padding: 120px 0 290px 0;
+    padding: 120px 0 120px 0;
+    background-size: 100% 100%;
 }
