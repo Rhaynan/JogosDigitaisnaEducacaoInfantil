@@ -249,7 +249,6 @@ body {
 }
 
 .conteudoRodape {
-    margin-top: 70px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -465,4 +464,12 @@ body {
     margin-left: 20px;
     margin-bottom: 20px;
     font-style: italic;
+}
+
+.planoDeFundo-card {
+    /* border: 10px solid red; */
+    background-color: black;
+    /* background-image: url('/src/image/background.jpeg'); */
+    margin-top: -30px;
+    padding: 120px 0 290px 0;
 }
