@@ -54,6 +54,7 @@ body {
 }
 
 .testeflex {
+    margin-top: 280px;
     padding-top: 20px;
     padding-bottom: 30px;
     height: auto;
@@ -166,7 +167,7 @@ body {
     color: #FFF;
 }
 
-.tabelas {
+.vantagens {
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -177,10 +178,15 @@ body {
     margin: 5px;
 }
 
-.tabelas:hover {
-    background: #502F4C;
+.vantagens:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #502F4C;
+    padding: 0 30px 0 30px;
     transition: .3s;
-    color: #FFF;
+    /* background: #70587C; */
+    border-radius: 20px;
+    margin: 5px;
 }
 
 .sobre {
@@ -262,9 +268,63 @@ body {
     color: #FFF;
 }
 
+.card1:hover {
+    transform: scale(1.5);
+    transition: .3s;
+}
+
+.img1 {
+    background-image: url('/src/image/angrybirds.webp');
+    height: 320px;
+    width: 400px;
+    position: absolute;
+    bottom: -90px;
+    left: -5px;
+    background-size: 70% 75%;
+    transition: .3s;
+}
+
+.img1:hover {
+    background-image: url('/src/image/angrybirds-gif.gif');
+    height: 370px;
+    width: 400px;
+    position: absolute;
+    bottom: -90px;
+    left: -0px;
+    background-size: 83% 76%;
+    transition: .3s;
+}
+
 .card2 {
     background: rgb(101, 159, 218);
     color: #FFF;
+}
+
+.card2:hover {
+    transform: scale(1.5);
+    transition: .3s;
+}
+
+.img2 {
+    background-image: url('/src/image/tetris-gifd.png');
+    height: 320px;
+    width: 400px;
+    position: absolute;
+    bottom: -90px;
+    left: -15px;
+    background-size: 70% 75%;
+    transition: .3s;
+}
+
+.img2:hover {
+    background-image: url('/src/image/tetris.gif');
+    height: 370px;
+    width: 400px;
+    position: absolute;
+    bottom: -90px;
+    left: -0px;
+    background-size: 83% 76%;
+    transition: .3s;
 }
 
 .card3 {
@@ -275,6 +335,17 @@ body {
 
 .card3:hover {
     transform: scale(1.5);
+    transition: .3s;
+}
+
+.img3 {
+    background-image: url('/src/image/minecraftIMG.webp');
+    height: 370px;
+    width: 400px;
+    position: absolute;
+    bottom: -90px;
+    left: -30%;
+    background-size: cover;
     transition: .3s;
 }
 
@@ -289,55 +360,31 @@ body {
     background-size: 90% 78%;
 }
 
-.img3 {
-    background-image: url('/src/image/minecraftIMG.webp');
-    height: 370px;
-    width: 400px;
-    position: absolute;
-    bottom: -90px;
-    left: -80px;
-    background-size: cover;
-    transition: .3s;
-
-}
-
 .titulo {
     text-align: center;
 }
 
 .cont1 {
     background: #092b5a;
-    width: 25%;
+    background: #70587C;
+    background: #502F4C;
+    width: 100%;
     color: #FFF;
+    text-align: center;
 }
 
-.cont2 {
-    background: #092b5a;
-    width: 25%;
-    color: #FFF;
-}
-
-.cont3 {
-    background: #092b5a;
-    width: 25%;
-    color: #FFF;
-}
-
-.cont4 {
-    background: #09738a;
-    width: 25%;
-    color: #FFF;
+.cont1 ul li {
+    list-style: none;
 }
 
 .sobreJogosDigitais {
-    /* border: 1px solid blue; */
     padding: 5px;
-
 }
 
 .infoCont {
+    font-weight: bold;
     text-align: center;
-
+    margin-left: 2.5%;
 }
 
 .cursor {
@@ -345,7 +392,76 @@ body {
 }
 
 .direitos {
+    background: #092b5a;
+    background: #70587C;
+    background: #502F4C;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
+.voltar {
+    height: 35px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.btn-voltar {
+    position: relative;
+}
+
+.traco1 {
+    background: white;
+    height: 20px;
+    width: 5px;
+    transform: rotate(45deg);
+    left: 15px;
+    bottom: -10px;
+    position: absolute;
+}
+
+.traco2 {
+    background: white;
+    height: 20px;
+    width: 5px;
+    transform: rotate(-47deg);
+    left: 27px;
+    bottom: -10px;
+    position: absolute;
+}
+
+.critica {
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista-vantagens {
+    list-style: none;
+    height: 160px;
+    width: 100%;
+}
+
+.subtitulo-vantagens {
+    font-size: 35px;
+}
+
+.bola {
+    font-size: 20px;
+    background-color: #70587C;
+    border-radius: 800px;
+    height: 70px;
+    padding: 13px;
+}
+
+.bola1 {
+    font-size: 21px;
+}
+
+.texto-lista {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
