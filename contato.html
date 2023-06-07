@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suporte</title>
     <link rel="stylesheet" href="./src/css/style-contato.css">
+    <form action="contato.html" method="get">
+        <label>Nome: </label>
+        <input type="text" name="nome" required><br>
+        <label>E-mail: </label>
+        <input type="email" name="email" required><br>
+        <label>Assunto: </label>
+        <select name="assunto">
+            <option value="sugestao">Sugestão</option>
+            <option value="critica">Crítica</option>
+            <option value="elogio" selected>Elogio</option>
+        </select><br>
+        <label>Mensagem: </label>
+        <!--input type="text" name="mensagem"><br>-->
+        <textarea name="mensagem" requiered></textarea><br>
+        <input type="checkbox" name="termo"
+        value="Concordo com os termos" required>
+        <label>
+            Concordo com os Termos de Privacidade do Site
+        </label><br>
+        <input type="submit" value="Enviar Mensagem">
+    </form>
 </head>
 <body>
     
