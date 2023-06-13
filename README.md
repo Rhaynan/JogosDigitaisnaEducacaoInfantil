@@ -1,2 +1,2 @@
 # JogosDigitaisnaEducacaoInfantil
-Repositório do arquivo, versão 1: Jogos Digitais na Educação Infantil
+Repositório do arquivo, Jogos Digitais na Educação Infantil
