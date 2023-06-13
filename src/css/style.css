@@ -2,13 +2,16 @@
 
 * {
     font-family: 'Open sans';
-    color: #FFF;
+    /* color: #242038; */
+
 }
 
 body {
     background: black;
     margin: 0;
-    background-image: url('/src/image/background.jpeg');
+
+    background-image: url('/src/image/backgroundMario2.jpg');
+    
 }
 
 .tabela1 {
@@ -45,14 +48,6 @@ body {
     border: 0.5px solid black;
 }
 
-.protocolos {
-    /* background: blue; */
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    border: 0.5px solid black;
-
-}
 
 .testeflex {
     margin-top: 280px;
@@ -64,7 +59,7 @@ body {
 }
 
 .conteudo1 {
-    background: blue;
+    background: #502F4C;
     width: 33.33%;
     text-align: center;
 }
@@ -78,7 +73,7 @@ body {
 }
 
 .conteudo2 {
-    background: rgb(86, 112, 231);
+    background: #723c6c;
     width: 33.33%;
     text-align: center;
 }
@@ -92,7 +87,7 @@ body {
 }
 
 .conteudo3 {
-    background: rgb(19, 62, 141);
+    background: #502F4C;
     width: 33.33%;
     text-align: center;
 }
@@ -188,6 +183,7 @@ body {
     /* background: #70587C; */
     border-radius: 20px;
     margin: 5px;
+    color: #fff;
 }
 
 .sobre {
@@ -249,6 +245,7 @@ body {
 }
 
 .conteudoRodape {
+    color: #242038;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -382,9 +379,22 @@ body {
 }
 
 .infoCont {
+    color: #000000;
     font-weight: bold;
     text-align: center;
     margin-left: 2.5%;
+    font-size: 20px;
+}
+
+.contatoRodape {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.contatoRodape:hover {
+    color: #092b5a;
+    border-bottom: 2px solid #092b5a;
 }
 
 .cursor {
@@ -470,6 +480,7 @@ body {
     /* border: 10px solid red; */
     background-color: black;
     background-image: url('/src/image/backgroundcard.jpg');
+    background-image: url('/src/image/backgroundmario.jpg');
     margin-top: -30px;
     padding: 120px 0 120px 0;
     background-size: 100% 100%;

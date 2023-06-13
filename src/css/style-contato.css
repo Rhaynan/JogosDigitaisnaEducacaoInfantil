@@ -1,3 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
 body {
-    background-color: wheat;
+    margin: 0;
 }
+
+body * {
+    font-family: 'Open sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.contato {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/src/image/backgroundmario.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerContato {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #13293D;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337254902);
+}
+
+.titulo {
+    font-weight: bold;
+    margin: 0;
+    color: #E8F1F2;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px;
+}
+
+.formulario span {
+    color: #E8F1F2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #E8F1F2;
+    background: #006494;
+    box-shadow: 0px 10px 30px -10px #006494;
+    cursor: pointer;
+}
+
+.formulario input::placeholder {
+    color: black;
+    opacity: 0.54;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+}
+
+.input-box input, .input-box textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background: #006494;
+    color: black;
+    outline: none;
+    font-size: 13pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337254902);
+    /* width: 100%;
+    padding: 10px; */
+    border: 2px solid black;
+    transition: 0.6s;
+    margin-top: 30px;
+}
+
+.input-box span {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    opacity: 1;
+    pointer-events: none;
+    transition: 0.6s;
+}
+
+.input-box input:valid ~ span, .input-box input:focus ~ span {
+    color: #fff;   
+    transform: translateX(0px) translateY(-20px);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0 10px;
+    /* background: #fff; */
+    letter-spacing: 0.1rem;
+}
+
+.input-box input:valid, .input-box input:focus {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.labelTermo {
+    margin-top: 20px;
+    color: #E8F1F2;
+}
+
+
