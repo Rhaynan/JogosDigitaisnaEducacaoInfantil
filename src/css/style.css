@@ -3,35 +3,17 @@
 * {
     font-family: 'Open sans';
     /* color: #242038; */
+    box-sizing: border-box;
+    
 
 }
 
 body {
     background: black;
     margin: 0;
-
+    overflow-x: hidden;
     background-image: url('/src/image/backgroundMario2.jpg');
-    
-}
-
-.tabela1 {
-    background: blue;
-}
-
-.tabela2 {
-    background: steelblue;
-}
-
-.text {
-    color: #fff;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.text2 {
-    color: #fff;
-    font-weight: 600;
-    font-size: 15px;
+    padding-right: 1px;
 }
 
 .tabela-lista {
@@ -39,15 +21,6 @@ body {
     display: flex;
 
 }
-
-.tabela {
-    display: flex;
-    justify-content: flex-start;
-    width: 50%;
-    /* background: red; */
-    border: 0.5px solid black;
-}
-
 
 .testeflex {
     margin-top: 280px;
@@ -100,26 +73,13 @@ body {
     padding: 60px;
 }
 
-.topo {
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    background: blue;
-    text-align: center;
-    color: #FFF;
-}
-
-.tag {
-    display: flex;
-    font-size: 35pt;
-}
 
 .divNav {
-
     padding-top: 10px;
 }
 
 .menu {
+    width: 100%;
     padding-left: 12px;
     padding-right: 12px;
     justify-content: flex-end;
@@ -128,7 +88,7 @@ body {
     /* background: #70587C */
 }
 
-.inicio {
+.inicio, .joguitodigital, .vantagens, .sobre, .rodape, .contato {
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -145,33 +105,10 @@ body {
     color: #FFF;
 }
 
-
-.joguitodigital{
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    padding: 0 30px 0 30px;
-    transition: .3s;
-    /* background: #70587C; */
-    border-radius: 20px;
-    margin: 5px;
-}
-
 .joguitodigital:hover {
     background: #502F4C;
     transition: .3s;
     color: #FFF;
-}
-
-.vantagens {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    padding: 0 30px 0 30px;
-    transition: .3s;
-    /* background: #70587C; */
-    border-radius: 20px;
-    margin: 5px;
 }
 
 .vantagens:hover {
@@ -186,16 +123,6 @@ body {
     color: #fff;
 }
 
-.sobre {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    padding: 0 30px 0 30px;
-    transition: .3s;
-    /* background: #70587C; */
-    border-radius: 20px;
-    margin: 5px;
-}
 
 .sobre:hover {
     background: #502F4C;
@@ -203,32 +130,10 @@ body {
     color: #FFF;
 }
 
-.rodape {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    padding: 0 30px 0 30px;
-    transition: .3s;
-    /* background: #70587C; */
-    border-radius: 20px;
-    margin: 5px;
-}
-
 .rodape:hover {
     background: #502F4C;
     transition: .3s;
     color: #FFF;
-}
-
-.contato {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    padding: 0 30px 0 30px;
-    transition: .3s;
-    /* background: #70587C; */
-    border-radius: 20px;
-    margin: 5px;
 }
 
 .contato:hover {
@@ -376,6 +281,8 @@ body {
 
 .sobreJogosDigitais {
     padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .infoCont {
@@ -484,4 +391,174 @@ body {
     margin-top: -30px;
     padding: 120px 0 120px 0;
     background-size: 100% 100%;
+}
+
+.btn-voltar {
+    margin-bottom: 90%;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .inicio, .joguitodigital, .vantagens, .sobre, .rodape, .contato {
+        height: 10%;
+        width: 15%;
+        /* padding: 0 70px 0 30px; */
+    }   
+
+}
+
+@media only screen and (max-width: 555px) {
+    .subtitulo-vantagens {
+        font-size: 25px;
+    }
+
+    .lista-vantagens {
+        list-style: none;
+        height: 160px;
+        width: 100%;
+        margin-bottom: 13%;
+    }
+
+
+    .testeflex {
+        margin-top: 280px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        height: auto;
+        display: flex;
+        color: #FFF;
+        flex-direction: column;
+    }
+    
+    .conteudo1 {
+        background: #502F4C;
+        width: 100%;
+        text-align: center;
+        height: 10%;
+    }
+    
+    
+    .conteudo2 {
+        background: #723c6c;
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    .conteudo3 {
+        background: #502F4C;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .voltar {
+        height: 35px;
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        top: -30%;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    .subtitulo-vantagens {
+        font-size: 25px;
+    }
+
+    .lista-vantagens {
+        list-style: none;
+        height: 160px;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .subtitulo-vantagens {
+        font-size: 25px;
+    }
+
+    .lista-vantagens {
+        margin-bottom: 50%;
+       /* padding: 10px; */
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .subtitulo-vantagens {
+        font-size: 18px;
+    }
+
+    .lista-vantagens {
+        margin-bottom: 10%;
+    }
+
+    .bola {
+        font-size: 15px;
+    }
+    
+    .bola1 {
+        font-size: 15px;
+    }
+    
+    .texto-lista {
+        font-size: 18px;
+    }
+
+    .testeflex {
+
+        flex-direction: column;
+    }
+    
+    .conteudo1 {
+        background: #502F4C;
+        width: 100%;
+        text-align: center;
+        height: 10%;
+    }
+    
+    
+    .conteudo2 {
+        background: #723c6c;
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    .conteudo3 {
+        background: #502F4C;
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 520px) {
+    .inicio, .joguitodigital, .vantagens, .sobre, .rodape, .contato {
+        height: 10%;
+        width: 2%;
+        font-size: 8pt;
+        position: relative;
+        left: 20px;
+        /* padding: 0 70px 0 30px; */
+    }   
+}
+
+@media only screen and (max-width: 400px) {
+ 
+/* 
+    .comeco {
+        display: flex;
+        justify-content: flex-end;
+        overflow-x: hidden;
+    } */
 }
